@@ -110,6 +110,10 @@ A reader expects consistent global elements for important information and naviga
     -   Assessments & Grading
     -   Appendices (Installation guides, troubleshooting, full hardware tables)
     -   References (master APA bibliography)
+
+### Hardware & Lab Setup Guide Additional Requirements
+-   **FR-003a**: The Hardware & Lab Setup Guide MUST include instructions for installing Docusaurus using the command: `npx create-docusaurus@latest my-website classic`
+-   **FR-003b**: The Hardware & Lab Setup Guide MUST specify all required dependencies for the Physical AI & Humanoid Robotics textbook
 -   **FR-004**: Every module chapter (Module 1-4, Capstone Project) MUST contain exactly these sections in this order:
     -   Learning Objectives (bullet list)
     -   Core Concepts (simple English explanations)

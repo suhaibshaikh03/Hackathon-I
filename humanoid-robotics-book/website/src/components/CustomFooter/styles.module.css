@@ -1,0 +1,49 @@
+.footer {
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.licenseInfo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.editLink {
+  font-size: 0.875rem;
+}
+
+.editLink a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.editLink a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .licenseInfo {
+    justify-content: center;
+  }
+}
