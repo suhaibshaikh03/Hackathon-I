@@ -355,26 +355,26 @@ latched_qos = QoSProfile(
 ### ROS 2 Communication Performance
 | Communication Type | Message Size | Frequency | Latency | Throughput | Reliability |
 |-------------------|--------------|-----------|---------|------------|-------------|
-| Topics (Reliable) | 1KB | 100Hz | <5ms | 100% | Guaranteed |
-| Topics (Best Effort) | 1MB | 30Hz | <1ms | 99.9% | Best effort |
-| Services | 1KB | 10Hz | <20ms | 100% | Request/Response |
-| Actions | 1KB | 1Hz | <100ms | 100% | Goal-based |
+| Topics (Reliable) | 1KB | 100Hz | &lt;5ms | 100% | Guaranteed |
+| Topics (Best Effort) | 1MB | 30Hz | &lt;1ms | 99.9% | Best effort |
+| Services | 1KB | 10Hz | &lt;20ms | 100% | Request/Response |
+| Actions | 1KB | 1Hz | &lt;100ms | 100% | Goal-based |
 
 ### Isaac Platform Performance Targets
 | Component | Metric | Target | Measurement Method |
 |-----------|--------|--------|-------------------|
 | Isaac Sim | Real-time Factor | >0.9 RTF | Simulated seconds / wall-clock seconds |
 | Isaac Lab | Training Speedup | 1000x+ | Parallel envs vs single env |
-| Isaac ROS | Perception Latency | <60ms | End-to-end processing time |
-| Isaac GR00T | Reasoning Time | <2s | Command to action plan |
+| Isaac ROS | Perception Latency | &lt;60ms | End-to-end processing time |
+| Isaac GR00T | Reasoning Time | &lt;2s | Command to action plan |
 
 ### Navigation Performance
 | Metric | Static Environment | Dynamic Environment | Testing Conditions |
 |--------|-------------------|-------------------|-------------------|
 | Success Rate | >90% | >75% | 100 trials per condition |
-| Path Efficiency | <1.2x optimal | <1.5x optimal | Distance traveled / optimal distance |
-| Execution Time | <5 min | <8 min | Average completion time |
-| Safety Violations | <1% | <5% | Collisions or unsafe behavior |
+| Path Efficiency | &lt;1.2x optimal | &lt;1.5x optimal | Distance traveled / optimal distance |
+| Execution Time | &lt;5 min | &lt;8 min | Average completion time |
+| Safety Violations | &lt;1% | &lt;5% | Collisions or unsafe behavior |
 
 ## Appendix I: Safety Standards and Compliance
 
@@ -386,7 +386,7 @@ latched_qos = QoSProfile(
 - **ANSI/RIA R15.06**: Safety requirements for industrial robots
 
 ### Safety Implementation Checklist
-- [ ] Emergency stop functionality with <100ms response time
+- [ ] Emergency stop functionality with &lt;100ms response time
 - [ ] Collision detection and avoidance systems
 - [ ] Safe operating boundaries and geofencing
 - [ ] Force/torque limiting for safe human interaction

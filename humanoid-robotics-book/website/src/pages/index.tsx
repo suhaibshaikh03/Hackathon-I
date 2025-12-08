@@ -17,13 +17,15 @@ function HomepageHeader() {
             {siteConfig.title}
           </Heading>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <p className="hero__author">By Muhammad Suhaib Shaikh</p>
+          <Link className="hero__author-link" to="https://www.linkedin.com/in/suhaib-shaikh-4159612b2/" target="_blank">
+            <span className="hero__author">By Muhammad Suhaib Shaikh</span>
+          </Link>
         </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg button--outline"
             to="/docs/intro">
-            Begin Your Journey →
+            Start Reading →
           </Link>
         </div>
       </div>

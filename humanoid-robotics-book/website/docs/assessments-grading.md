@@ -65,7 +65,7 @@ This course employs competency-based assessment where students demonstrate pract
 
 **Isaac Lab Training (25%)**:
 - Train locomotion policies with >90% success rate
-- Achieve training completion in <8 hours on RTX 4090
+- Achieve training completion in &lt;8 hours on RTX 4090
 - Validate policy performance in simulation
 
 **Isaac ROS Integration (25%)**:
