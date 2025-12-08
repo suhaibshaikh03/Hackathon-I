@@ -10,21 +10,21 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: humanoid-robotics-book/website
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: yarn
+          cache-dependency-path: humanoid-robotics-book/website/yarn.lock
 
       - name: Install dependencies
-        run: |
-          cd humanoid-robotics-book/website
-          yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
       - name: Build website
-        run: |
-          cd humanoid-robotics-book/website
-          yarn build
+        run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
