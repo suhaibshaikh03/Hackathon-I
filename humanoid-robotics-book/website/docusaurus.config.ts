@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://suhaibshaikh03.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Hackathon-I/',
+  baseUrl: '/',
 
   // GitHub pages deployment config - Updated: 2025-12-08.
   // If you aren't using GitHub pages, you don't need these.
