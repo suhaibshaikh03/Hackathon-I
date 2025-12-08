@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run build)"
+      "Bash(npm run build)",
+      "Bash(dir \".github\" /s)",
+      "Bash(dir \".github\\workflows\")",
+      "Bash(dir humanoid-robotics-book)",
+      "Bash(dir)"
     ],
     "deny": [],
     "ask": []
