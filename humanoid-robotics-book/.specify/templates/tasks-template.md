@@ -251,5 +251,5 @@ With multiple developers:
 - Avoid: vague tasks, same file conflicts, cross-story dependencies that break independence
 - [ ] Ensure all code snippets and commands in tasks are testable and verifiable as per Constitution.
 - [ ] Verify that tasks contribute to meeting the Flesch-Kincaid Grade Level and plagiarism checks during content creation.
-- [ ] Tasks related to content generation must specify usage of `context7mcp` server.
+- [ ] Tasks related to content generation must follow educational best practices and technical accuracy standards.
 - [ ] Include tasks for archiving external links and ensuring the book builds/deploys without broken links.

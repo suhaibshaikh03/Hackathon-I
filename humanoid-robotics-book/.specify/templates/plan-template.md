@@ -39,7 +39,7 @@
   - [ ] Source Priority: Min 60% peer-reviewed/official docs/primary sources, 40% high-quality blogs/docs/repos.
   - [ ] Minimum Sources: Min 80 sources total across the book.
   - [ ] Code Snippets: All code snippets must be tested and working.
-  - [ ] Content Generation: All content generated/edited using context7mcp server connected to Claude Code.
+  - [ ] Content Generation: All content generated/edited using educational best practices and technical accuracy standards.
   - [ ] Plagiarism Check: 0% tolerance (passes Copyscape/ZeroGPT/Originality.ai).
 - [ ] **Constraints Met**
   - [ ] Word Count: Plan aligns with total word count goals (60,000–120,000 words).

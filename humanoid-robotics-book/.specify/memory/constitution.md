@@ -34,7 +34,7 @@ Minimum 60% peer-reviewed papers, official documentation, or primary sources. Re
 All code snippets must be tested and working.
 
 ### VII. Content Generation
-Always generate and edit content using the context7mcp server connected to Claude Code.
+Always generate and edit content using educational best practices and technical accuracy standards.
 
 ### VIII. Plagiarism Check
 0% tolerance (must pass Copyscape/ZeroGPT/Originality.ai before merge).
@@ -60,7 +60,7 @@ Minimum 80 sources total across the entire book
 All code snippets must be tested and working
 
 ### Content generation
-Always generate and edit content using the context7mcp server connected to Claude Code
+Always generate and edit content using educational best practices and technical accuracy standards
 
 ### Plagiarism check
 0% tolerance (must pass Copyscape/ZeroGPT/Originality.ai before merge).

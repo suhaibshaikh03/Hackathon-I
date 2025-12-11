@@ -212,7 +212,7 @@ A student wants to deploy trained simulation policies to real humanoid hardware 
   - [X] Source Priority: Min 60% peer-reviewed/official docs/primary sources, 40% high-quality blogs/docs/repos.
   - [X] Minimum Sources: Min 80 sources total across the book (overall project).
   - [ ] Code Snippets: All code snippets within the spec are tested and working (if applicable).
-  - [X] Content Generation: All content generated/edited using context7mcp server connected to Claude Code.
+  - [X] Content Generation: All content generated/edited using educational best practices and technical accuracy standards.
   - [X] Plagiarism Check: 0% tolerance.
 - [ ] **Constraints Considered**
   - [X] Word Count: Spec contributes to overall book word count goals (60,000–120,000 words).
